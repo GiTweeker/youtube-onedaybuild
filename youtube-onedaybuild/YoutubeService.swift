@@ -23,6 +23,20 @@ class YoutubeService {
             //check if there were any errors
             if error != nil || data == nil  { return }
          
+            do {
+                let decoder  = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                    print("about to decode")
+                let response  = try decoder.decode(YoutubeVideoResponse.self, from: data!)
+                
+                print("done")
+                
+                dump(response)
+            }
+            catch{
+                
+            }
+            
         }
         //get a urlsession object
         //get a data task from urlsession object

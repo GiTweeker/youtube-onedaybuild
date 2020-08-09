@@ -17,6 +17,7 @@
 		3E43709224DFD0700040A65E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E43709124DFD0700040A65E /* Constant.swift */; };
 		3E43709424DFD2AB0040A65E /* YouTubeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E43709324DFD2AB0040A65E /* YouTubeVideo.swift */; };
 		3E43709624DFD31A0040A65E /* YoutubeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E43709524DFD31A0040A65E /* YoutubeService.swift */; };
+		3E43709824E032010040A65E /* YoutubeVideoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E43709724E032010040A65E /* YoutubeVideoResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3E43709124DFD0700040A65E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		3E43709324DFD2AB0040A65E /* YouTubeVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeVideo.swift; sourceTree = "<group>"; };
 		3E43709524DFD31A0040A65E /* YoutubeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeService.swift; sourceTree = "<group>"; };
+		3E43709724E032010040A65E /* YoutubeVideoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideoResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				3E43709124DFD0700040A65E /* Constant.swift */,
 				3E43709324DFD2AB0040A65E /* YouTubeVideo.swift */,
 				3E43709524DFD31A0040A65E /* YoutubeService.swift */,
+				3E43709724E032010040A65E /* YoutubeVideoResponse.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				3E43707424DEA1B90040A65E /* ViewController.swift in Sources */,
 				3E43709624DFD31A0040A65E /* YoutubeService.swift in Sources */,
 				3E43707024DEA1B90040A65E /* AppDelegate.swift in Sources */,
+				3E43709824E032010040A65E /* YoutubeVideoResponse.swift in Sources */,
 				3E43709424DFD2AB0040A65E /* YouTubeVideo.swift in Sources */,
 				3E43707224DEA1B90040A65E /* SceneDelegate.swift in Sources */,
 				3E43709224DFD0700040A65E /* Constant.swift in Sources */,
