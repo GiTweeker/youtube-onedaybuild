@@ -9,10 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var youtubeService  = YoutubeService()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        youtubeService.getVideo();
     }
 
 
